@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "min_free_memory_gib": 4.0,
+  "epochs": 100,
+  "patience": 6,
+  "min_groups": 8000,
+  "print_every_n_groups": 20,
+
+  "lr": 0.001,
+  "lr_decay": 0.98,
+  "weight_decay": 0.001,
+  "grad_clip_norm": 1.0,
+  "device": "cuda",
+  "batch_size": 240,
+  "pert_group_size": 24,
+
+  "gene_embedding_dim": 128,
+  "cell_context_dim": 256,
+  "enhanced_node_dim": 128,
+  "technology_embedding_dim": 128,
+  "edge_chunk_size": 131072,
+  "biogrid_path": null,
+  "gene_embedding_path": null,
+
+  "loss_blur": 0.02,
+  "loss_sinkhorn_iters": 32,
+  "loss_weights": {
+    "expression_mse": 1.0,
+    "ot": 0.01
+  }
+}

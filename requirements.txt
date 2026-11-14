@@ -1,0 +1,7 @@
+anndata
+numpy
+pandas
+scanpy
+scikit-learn
+scipy
+torch>=2.4
